@@ -1,0 +1,11 @@
+# Qiskit 1.x is required: the V1 primitives (Sampler) used by qiskit-algorithms
+# IterativeAmplitudeEstimation were removed in Qiskit 2.0.
+qiskit>=1.0.0,<2.0
+qiskit-algorithms>=0.3.0
+qiskit-aer>=0.14.0
+qiskit-finance>=0.4.0   # optional: only needed to cross-check against LogNormalDistribution
+numpy>=1.24
+scipy>=1.10
+pandas>=2.0
+matplotlib>=3.7
+pytest>=7.4
